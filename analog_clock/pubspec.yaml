@@ -1,0 +1,28 @@
+name: analog_clock
+description: Analog clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/dark-second-hand2.png
+    - assets/sunny.png
+    - assets/bg_flash.gif
+    - assets/bg_rainy.gif
+    - assets/bg_sunny.gif
+    - assets/weather_cold.jpg
+    - assets/weather_hot.jpg
